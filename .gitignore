@@ -1,0 +1,17 @@
+# env
+apps/api/.env
+apps/dashboard/.env.local
+!apps/api/.env.example
+
+# Go
+apps/api/server
+apps/api/generated/
+
+# Node
+apps/dashboard/node_modules/
+apps/dashboard/.next/
+apps/dashboard/out/
+
+# Misc
+*.log
+.DS_Store
